@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Rouge_Pomme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/theme_rouge_pomme_P</item>
+        <item name="colorPrimaryDark">@color/theme_rouge_pomme_PD</item>
+        <item name="colorAccent">@color/theme_rouge_pomme_A</item>
+    </style>
+    <style name="Rose_Bonbon" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/theme_rose_bonbon_P</item>
+        <item name="colorPrimaryDark">@color/theme_rose_bonbon_PD</item>
+        <item name="colorAccent">@color/theme_rose_bonbon_A</item>
+    </style>
+    <style name="Fushia" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/theme_fushia_P</item>
+        <item name="colorPrimaryDark">@color/theme_fushia_PD</item>
+        <item name="colorAccent">@color/theme_fushia_A</item>
+    </style>
+    <style name="Parme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/theme_parme_P</item>
+        <item name="colorPrimaryDark">@color/theme_parme_PD</item>
+        <item name="colorAccent">@color/theme_parme_A</item>
+    </style>
+    <style name="Bleu" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/theme_bleu_P</item>
+        <item name="colorPrimaryDark">@color/theme_bleu_PD</item>
+        <item name="colorAccent">@color/theme_bleu_A</item>
+    </style>
+    <style name="Bleu_Pale" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/theme_bleu_pale_P</item>
+        <item name="colorPrimaryDark">@color/theme_bleu_pale_PD</item>
+        <item name="colorAccent">@color/theme_bleu_pale_A</item>
+    </style>
+    <style name="Bleu_Ciel" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/theme_bleu_ciel_P</item>
+        <item name="colorPrimaryDark">@color/theme_bleu_ciel_PD</item>
+        <item name="colorAccent">@color/theme_bleu_ciel_A</item>
+    </style>
+    <style name="Bleu_Turquoise" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/theme_bleu_turquoise_P</item>
+        <item name="colorPrimaryDark">@color/theme_bleu_turquoise_PD</item>
+        <item name="colorAccent">@color/theme_bleu_turquoise_A</item>
+    </style>
+    <style name="Vert_Turquoise" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/theme_vert_turquoise_P</item>
+        <item name="colorPrimaryDark">@color/theme_vert_turquoise_PD</item>
+        <item name="colorAccent">@color/theme_vert_turquoise_A</item>
+    </style>
+    <style name="Vert_Cactus" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/theme_vert_cactus_P</item>
+        <item name="colorPrimaryDark">@color/theme_vert_cactus_PD</item>
+        <item name="colorAccent">@color/theme_vert_cactus_A</item>
+    </style>
+    <style name="Vert_Bouteille" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/theme_vert_bouteille_P</item>
+        <item name="colorPrimaryDark">@color/theme_vert_bouteille_PD</item>
+        <item name="colorAccent">@color/theme_vert_bouteille_A</item>
+    </style>
+    <style name="Vert_Pomme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/theme_vert_pomme_P</item>
+        <item name="colorPrimaryDark">@color/theme_vert_pomme_PD</item>
+        <item name="colorAccent">@color/theme_vert_pomme_A</item>
+    </style>
+    <style name="Jaune_Pulco" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/theme_jaune_pulco_P</item>
+        <item name="colorPrimaryDark">@color/theme_jaune_pulco_PD</item>
+        <item name="colorAccent">@color/theme_jaune_pulco_A</item>
+    </style>
+    <style name="Jaune_Citron" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/theme_jaune_citron_P</item>
+        <item name="colorPrimaryDark">@color/theme_jaune_citron_PD</item>
+        <item name="colorAccent">@color/theme_jaune_citron_A</item>
+    </style>
+    <style name="Jaune_Agrummes" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/theme_jaune_agrumme_P</item>
+        <item name="colorPrimaryDark">@color/theme_jaune_agrumme_PD</item>
+        <item name="colorAccent">@color/theme_jaune_agrumme_A</item>
+    </style>
+    <style name="Orange_Abricot" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/theme_orange_abricot_P</item>
+        <item name="colorPrimaryDark">@color/theme_orange_abricot_PD</item>
+        <item name="colorAccent">@color/theme_orange_abricot_A</item>
+    </style>
+    <style name="Marron_Chataigne" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/theme_marron_chataigne_P</item>
+        <item name="colorPrimaryDark">@color/theme_marron_chataigne_PD</item>
+        <item name="colorAccent">@color/theme_marron_chataigne_A</item>
+    </style>
+    <style name="Gris_de_Roche" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/theme_gris_de_roche_P</item>
+        <item name="colorPrimaryDark">@color/theme_gris_de_roche_PD</item>
+        <item name="colorAccent">@color/theme_gris_de_roche_A</item>
+    </style>
+    <style name="Lueur_de_Bleu" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/theme_lueur_de_bleu_P</item>
+        <item name="colorPrimaryDark">@color/theme_lueur_de_bleu_PD</item>
+        <item name="colorAccent">@color/theme_lueur_de_bleu_A</item>
+    </style>
+</resources>

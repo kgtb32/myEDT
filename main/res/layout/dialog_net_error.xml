@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorRedP"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/dialog_net_error_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorRedP"
+        android:text="@string/dialog_net_error_title"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="26sp" />
+
+    <TextView
+        android:id="@+id/dialog_net_error_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorRedP"
+        android:text="@string/dialog_net_error_desc"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/dialog_net_error_close_btn"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_gravity="right"
+        android:background="@drawable/validate_btn"
+        android:gravity="right" />
+</LinearLayout>

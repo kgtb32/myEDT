@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorRedP">#e74c3c</color>
+    <color name="colorRedPD">#c0392b</color>
+    <color name="colorRedA">#E96A5E</color>
+    <color name="White">#FFFFFF</color>
+
+    <!-- Couleurs Thème application -->
+    <!--Theme Rouge Pomme(0) -->
+    <color name="theme_rouge_pomme_P">#E51C23</color>
+    <color name="theme_rouge_pomme_PD">#A01519</color>
+    <color name="theme_rouge_pomme_A">#FD2027</color>
+    <!-- Theme Rose Bonbon (1) -->
+    <color name="theme_rose_bonbon_P">#E91E63</color>
+    <color name="theme_rose_bonbon_PD">#A21744</color>
+    <color name="theme_rose_bonbon_A">#FF206D</color>
+    <!-- Theme Fushia (2) -->
+    <color name="theme_fushia_P">#9C27B0</color>
+    <color name="theme_fushia_PD">#751D88</color>
+    <color name="theme_fushia_A">#BA2ED5</color>
+    <!-- Theme Parme (3) -->
+    <color name="theme_parme_P">#673AB7</color>
+    <color name="theme_parme_PD">#4E2E8D</color>
+    <color name="theme_parme_A">#7B43E0</color>
+    <!-- Theme Bleu (4)-->
+    <color name="theme_bleu_P">#3F51B5</color>
+    <color name="theme_bleu_PD">#313C8B</color>
+    <color name="theme_bleu_A">#4C62EC</color>
+    <!-- Theme Bleu pâle (5) -->
+    <color name="theme_bleu_pale_P">#5677FC</color>
+    <color name="theme_bleu_pale_PD">#415BC5</color>
+    <color name="theme_bleu_pale_A">#6481FD</color>
+    <!-- Theme Bleu Ciel (6) -->
+    <color name="theme_bleu_ciel_P">#03A9F4</color>
+    <color name="theme_bleu_ciel_PD">#0389C0</color>
+    <color name="theme_bleu_ciel_A">#16B3FD</color>
+    <!-- Theme Bleu Turquoise -->
+    <color name="theme_bleu_turquoise_P">#00BCD4</color>
+    <color name="theme_bleu_turquoise_PD">#0091A5</color>
+    <color name="theme_bleu_turquoise_A">#00E1FF</color>
+    <!-- Theme Vert Turquoise -->
+    <color name="theme_vert_turquoise_P">#009688</color>
+    <color name="theme_vert_turquoise_PD">#005F55</color>
+    <color name="theme_vert_turquoise_A">#00DFC9</color>
+    <!-- Theme Vert Cactus-->
+    <color name="theme_vert_cactus_P">#259B24</color>
+    <color name="theme_vert_cactus_PD">#196918</color>
+    <color name="theme_vert_cactus_A">#35D531</color>
+    <!-- Theme Vert Bouteille -->
+    <color name="theme_vert_bouteille_P">#8BC34A</color>
+    <color name="theme_vert_bouteille_PD">#638832</color>
+    <color name="theme_vert_bouteille_A">#A8F057</color>
+    <!-- Theme Vert Pomme -->
+    <color name="theme_vert_pomme_P">#CDDC39</color>
+    <color name="theme_vert_pomme_PD">#92A029</color>
+    <color name="theme_vert_pomme_A">#EDFF45</color>
+    <!-- Theme Jaune Pulco -->
+    <color name="theme_jaune_pulco_P">#FFEB3B</color>
+    <color name="theme_jaune_pulco_PD">#BBAD2B</color>
+    <color name="theme_jaune_pulco_A">#F5E358</color>
+    <!-- Theme Jaune Citron  -->
+    <color name="theme_jaune_citron_P">#FFC107</color>
+    <color name="theme_jaune_citron_PD">#BD9005</color>
+    <color name="theme_jaune_citron_A">#F5BC2F</color>
+    <!-- Theme Jaune Agrumes -->
+    <color name="theme_jaune_agrumme_P">#FF9800</color>
+    <color name="theme_jaune_agrumme_PD">#B46C00</color>
+    <color name="theme_jaune_agrumme_A">#F8A222</color>
+    <!-- Theme Orange Abricot -->
+    <color name="theme_orange_abricot_P">#FF5722</color>
+    <color name="theme_orange_abricot_PD">#B63F19</color>
+    <color name="theme_orange_abricot_A">#F87044</color>
+    <!-- Theme Marron Châtaigne -->
+    <color name="theme_marron_chataigne_P">#795548</color>
+    <color name="theme_marron_chataigne_PD">#5E4237</color>
+    <color name="theme_marron_chataigne_A">#AA7565</color>
+    <!-- Theme Gris de Roche -->
+    <color name="theme_gris_de_roche_P">#9E9E9E</color>
+    <color name="theme_gris_de_roche_PD">#777777</color>
+    <color name="theme_gris_de_roche_A">#DBDBDB</color>
+    <!-- Theme Lueur de Bleu -->
+    <color name="theme_lueur_de_bleu_P">#607D8B</color>
+    <color name="theme_lueur_de_bleu_PD">#435661</color>
+    <color name="theme_lueur_de_bleu_A">#83AABE</color>
+
+
+
+
+
+</resources>

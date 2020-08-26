@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:mstb="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:padding="6dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/appConfig_Title"
+                android:textAlignment="center"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/appConfig_Type" />
+
+
+            <org.honorato.multistatetogglebutton.MultiStateToggleButton
+                android:id="@+id/appSettings_fileType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dip"
+                android:gravity="center"
+                mstb:mstbPrimaryColor="@color/White"
+                mstb:mstbSecondaryColor="?attr/colorPrimary"
+                mstb:values="@array/fileType" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/appConfig_URL" />
+
+            <Button
+                android:id="@+id/URLupdateBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/appConfig_EditURLBtn" />
+
+            <Button
+                android:id="@+id/setttings_file_type_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/appConfig_EditFileBtn" />
+
+            <Switch
+                android:id="@+id/switch_cache_storage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:focusable="false"
+                android:text="@string/appConfig_Cache" />
+
+            <Switch
+                android:id="@+id/switch_autoUpdate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/appConfig_autoRefresh" />
+
+            <org.honorato.multistatetogglebutton.MultiStateToggleButton
+                android:id="@+id/appSettings_autoRefresh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                mstb:mstbPrimaryColor="@color/White"
+                mstb:mstbSecondaryColor="?attr/colorPrimary"
+                mstb:values="@array/refreshArray" />
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/appConfig_BKcolors"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/appConfig_ThemeTitle"
+                android:textAlignment="center"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/appSettings_txtThemeName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/appConfig_actualTheme"
+                android:textColor="@android:color/black" />
+
+            <Button
+                android:id="@+id/btnUpdate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/btnValidate"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

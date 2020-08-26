@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@android:color/transparent"
+    >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dialog_icon_bg"
+        android:backgroundTintMode="multiply"
+        android:src="@drawable/ic_palette_black_24dp"
+        android:tint="?android:attr/colorPrimary">
+
+    </ImageView>
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="400dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@drawable/dialog_bg"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/dialog_color_select"
+            android:textSize="22sp" />
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:columnCount="4"
+            android:orientation="horizontal"
+            android:padding="4dp"
+            android:useDefaultMargins="true">
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/dialog_color_btn_0"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:scaleType="fitXY"
+                app:backgroundTint="#E51C23"
+                app:fabSize="normal" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/dialog_color_btn_1"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:scaleType="fitXY"
+                app:backgroundTint="#E91E63"
+                app:fabSize="normal" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/dialog_color_btn_2"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:scaleType="fitXY"
+                app:backgroundTint="#9C27B0"
+                app:fabSize="normal" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/dialog_color_btn_3"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:scaleType="fitXY"
+                app:backgroundTint="#673AB7"
+                app:fabSize="normal" />
+            <!-- Ligne 2-->
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/dialog_color_btn_4"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:scaleType="fitXY"
+                app:backgroundTint="#3F51B5"
+                app:fabSize="normal" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/dialog_color_btn_5"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:scaleType="fitXY"
+                app:backgroundTint="#5677FC"
+                app:fabSize="normal" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/dialog_color_btn_6"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:scaleType="fitXY"
+                app:backgroundTint="#03A9F4"
+                app:fabSize="normal" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/dialog_color_btn_7"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:scaleType="fitXY"
+                app:backgroundTint="#00BCD4"
+                app:fabSize="normal" />
+            <!-- Ligne 3 -->
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/dialog_color_btn_8"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:scaleType="fitXY"
+                app:backgroundTint="#009688"
+                app:fabSize="normal" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/dialog_color_btn_9"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:scaleType="fitXY"
+                app:backgroundTint="#259B24"
+                app:fabSize="normal" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/dialog_color_btn_10"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:scaleType="fitXY"
+                app:backgroundTint="#8BC34A"
+                app:fabSize="normal" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/dialog_color_btn_11"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:scaleType="fitXY"
+                app:backgroundTint="#CDDC39"
+                app:fabSize="normal" />
+            <!-- Ligne 4 -->
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/dialog_color_btn_12"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:scaleType="fitXY"
+                app:backgroundTint="#FFEB3B"
+                app:fabSize="normal" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/dialog_color_btn_13"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:scaleType="fitXY"
+                app:backgroundTint="#FFC107"
+                app:fabSize="normal" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/dialog_color_btn_14"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:scaleType="fitXY"
+                app:backgroundTint="#FF9800"
+                app:fabSize="normal" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/dialog_color_btn_15"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:scaleType="fitXY"
+                app:backgroundTint="#FF5722"
+                app:fabSize="normal" />
+            <!-- Ligne 5 -->
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/dialog_color_btn_16"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:scaleType="fitXY"
+                app:backgroundTint="#795548"
+                app:fabSize="normal" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/dialog_color_btn_17"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:scaleType="fitXY"
+                app:backgroundTint="#9E9E9E"
+                app:fabSize="normal" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/dialog_color_btn_18"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:scaleType="fitXY"
+                app:backgroundTint="#607D8B"
+                app:fabSize="normal" />
+
+        </GridLayout>
+    </LinearLayout>
+</LinearLayout>

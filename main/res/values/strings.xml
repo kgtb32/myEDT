@@ -1,0 +1,131 @@
+<resources>
+    <string name="app_name">myEDT</string>
+    <string name="title_home">Emploi du Temps</string>
+    <string name="title_dashboard">Paramètres</string>
+    <string name="btnDayMoins">&lt;</string>
+    <string name="btnDayPlus">&gt;</string>
+    <string name="appConfig_Title">General</string>
+    <string name="appConfig_URL">URL du fichier ICS :</string>
+    <string name="appConfig_URI">Fichier ICS :</string>
+    <string name="appConfig_EditURLBtn">Éditer l\'URL</string>
+    <string name="appConfig_EditFileBtn">Choisir un fichier</string>
+    <string name="appConfig_FileType">fichier ICS</string>
+    <string name="appConfig_URLType">URL</string>
+    <string name="appConfig_Type">Méthode de récupération de l\'emploi du temps :</string>
+    <string name="appConfig_BKcolors">Couleur de fond</string>
+    <string name="appConfig_Colorbtn">Changer la couleur</string>
+    <string name="appConfig_Cache">Stockage en Cache</string>
+    <string name="appConfig_autoRefresh">Actualisation automatique</string>
+    <string name="appConfig_ThemeTitle">Design</string>
+    <string name="appConfig_actualTheme">Theme actuel : Clair Bleu</string>
+    <string name="appInfo_appNameDesc">myEDT V.1.01\nCréé par K. Gomes</string>
+    <string name="title_about">A propos</string>
+    <string name="btnValidate">Séléctionner un thème</string>
+
+    <string name="unsetVal">NOT SET</string>
+
+    <string name="theme_blue_name">Clair : Bleu</string>
+
+    <string-array name="conditions_array">
+        <item>est Égal</item>
+        <item>est Différent</item>
+        <item>Contient</item>
+    </string-array>
+    <string-array name="triType_Array">
+        <item>Plus récent d\'abord</item>
+        <item>Plus ancien d\'abord</item>
+        <item>Par nom</item>
+    </string-array>
+    <string-array name="themeArray">
+        <item>Rouge Pomme</item>
+        <item>Rose Bonbon</item>
+        <item>Fushia</item>
+        <item>Parme</item>
+        <item>Bleu</item>
+        <item>Bleu Pâle</item>
+        <item>Bleu Ciel</item>
+        <item>Bleu Turquoise</item>
+        <item>Vert Turquoise</item>
+        <item>Vert Cactus</item>
+        <item>Vert Bouteille</item>
+        <item>Vert Pomme</item>
+        <item>Jaune Pulco</item>
+        <item>Jaune Citron</item>
+        <item>Jaune Agrumes</item>
+        <item>Orange Abricot</item>
+        <item>Marron_Chataigne</item>
+        <item>Gris de Roche</item>
+        <item>Lueur de Bleu</item>
+    </string-array>
+    <string-array name="refreshArray">
+        <item>5 Min</item>
+        <item>10 Min</item>
+        <item>15 Min</item>
+        <item>30 Min</item>
+        <item>1 H</item>
+        <item>2 H</item>
+        <item>12 H</item>
+        <item>24 H</item>
+    </string-array>
+    <string-array name="fileType">
+        <item>Fichier ICS</item>
+        <item>URL</item>
+    </string-array>
+
+    <string name="CATEGORIES">Catégorie</string>
+    <string name="LAST_MODIFIED">Dernière modification</string>
+    <string name="DESCRIPTION"> Description</string>
+    <string name="LOCATION">🏠 Lieu</string>
+
+    <string name="dialog_URL_title">Configuration de l\'URL</string>
+    <string name="dialog_URL_field">Entrez ci dessous l\'URL de votre fichier ICS et valider en appuyant sur "valider"</string>
+    <string name="dialog_URL_placeholder">Entrez l\'URL ici</string>
+
+    <string name="dialog_Valid">Valider</string>
+    <string name="dialog_Cancel">Annuler</string>
+
+
+    <string name="dialog_picker_title">Choix de la Date</string>
+
+    <string name="dialog_net_error_title">Erreur de connexion</string>
+    <string name="dialog_net_error_desc">Une erreur s\'est produite lors de la tentative de récupération de l\'emploi du temps.
+        \nVeuillez vérifier que :\n
+        • Vous êtes bien connecté à internet\n
+        • Vous êtes bien connecté à internet\n
+        • Le site ou l\'emploi du temps est stocké n\'est pas hors ligne\n
+        • Vous avez bien accordé la permission "Stockage" à cette application</string>
+
+    <string name="dialog_pre_loading_title">Téléchargement ...</string>
+    <string name="dialog_color_select">Séléctionner un thème</string>
+    <string name="search_bar_hint">Précisez votre recherche ici</string>
+    <string name="dialog_search_title">Rechercher dans</string>
+    <string name="dialog_search_byTT">Le Titre uniquement</string>
+    <string name="dialog_search_byE">Partout</string>
+
+    <string name="dialog_refreshtime_title">Taux de rafraichissement</string>
+    <string name="dialog_filtres_title">Filtres</string>
+    <string name="dialog_filtres_addFiltres_title">Ajouter un filtre</string>
+    <string name="dialog_filtres_champ_hint">Champ</string>
+    <string name="dialog_filtres_valeur_hint">Valeur</string>
+    <string name="dialog_filtres_selectColor">Couleur</string>
+
+    <string name="eventDetailDialog_title">Détail de l\'évennement</string>
+
+    <string name="eventDialog_title">Rappels</string>
+    <string name="dialog_event_name_hint">Nom</string>
+    <string name="dialog_addRappel_title">Ajouter un rappel</string>
+    <string name="dialog_addRappel_info">Quand souhaitez vous êtes prévenus pour cet évennement ?</string>
+    <string-array name="rappelsArray">
+        <item>1h à l\'avance</item>
+        <item>2h à l\'avance</item>
+        <item>4h à l\'avance</item>
+        <item>1 jour en avance</item>
+        <item>2 jours en avance</item>
+    </string-array>
+    <string name="dialog_addRappel_hint">Nom à donner à ce rappel</string>
+    <string name="dialog_rappels_title">Rappels</string>
+    <string name="adapter_rappel_exec">Execution prévue le :</string>
+    <string name="dialog_rappels_noRap">Aucun rappel</string>
+    <string name="dialog_rappel_del_title">Supprimer un évennement</string>
+    <string name="dialog_rappel_del_quest">Supprimer ce rappel ?</string>
+</resources>
